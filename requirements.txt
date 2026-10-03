@@ -1,0 +1,7 @@
+streamlit
+transformers
+datasets
+accelerate
+sentencepiece
+torch
+pandas
