@@ -1,22 +1,3 @@
-# ============================================================
-# PATIENT CONVERSATION RESPONSE GENERATION
-# Dataset: fastino/fast-decisions
-# Subset: agent_handoff
-# Model: T5-small
-# ============================================================
-
-
-# ============================================================
-# 1. INSTALL REQUIRED LIBRARIES
-# ============================================================
-
-!pip install -q -U transformers datasets accelerate sentencepiece
-
-
-# ============================================================
-# 2. IMPORT LIBRARIES
-# ============================================================
-
 import re
 import torch
 import pandas as pd
